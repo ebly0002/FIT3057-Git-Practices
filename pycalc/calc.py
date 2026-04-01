@@ -6,6 +6,8 @@ def compute(expression: str):
 
     if operator == "+":
         return num0 + num1
+    elif operator == "-":
+        return num0 - num1
     else:
         print("Unknown operation!")
         return None
