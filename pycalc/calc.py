@@ -8,4 +8,4 @@ def compute(expression: str):
         return num0 + num1
     else:
         print("Unknown operation!")
-        return 0
+        return None
